@@ -5509,19 +5509,23 @@ margin-bottom: -1px;
 	margin-left: 30%;
 }
 .col2{
-	margin-right: 7.7%;
+	margin-right: 6.4%;
 }
 .col{
-	margin-right: 5%;
+	margin-right: 3.2%;
+	margin-left: 6.8%;
 }
 .col3{
-	margin-right: 7.4%;
+	margin-right: 5%;
+
 }
 .col22{
-	margin-right: 3%
+	margin-right: 2%
 }
 .col21{
-	margin-right: 3.5%
+	margin-right: 2%;
+	margin-left: 6.8%;
+
 }
 .wpb_wrapper{
 	margin-left: 5%;
@@ -5563,7 +5567,12 @@ margin-bottom: -1px;
     display: flex;
     flex-wrap: wrap;
     margin: 10px; /* Negative margin to counteract column padding */
-	width: 90%;
+	width: 100%;
+}
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; /* Adjust this margin as needed */
 }
 
 .col-4 {
@@ -5574,6 +5583,9 @@ margin-bottom: -1px;
 	display: flex;
 
 }
+.wpb_wrapper.uniq h5 {
+    margin-left: -6%;
+}
 
 .p-3 {
     padding: 30px;
@@ -5583,13 +5595,21 @@ margin-bottom: -1px;
     margin: 10px
 }
 .Online-Cource{
-	margin-top: 5%;
-	margin-left: 16%;
+	margin-left: 9%;
+	margin-top:9%;
 }
+.vc_empty_space_inner{
+	margin-bottom: 1%;
+}
+.vc_general vc_single_bar{
+	
+}
+.vc_single_image-wrapper vc_box_border_gre{}
 .Cards{
 	display: inline-flex;
 	width: 120%;
-	margin-left: 10%;
+	margin-left: 6%;
+	margin-top: 1%;
 }
 .card{
 	margin-top: 1%;
@@ -5606,6 +5626,9 @@ margin-bottom: -1px;
         box-shadow: 0px 4px 8px rgba(233, 220, 220, 0.4); /* Darker box shadow */
     }
 
+}
+.wpb_wrapper uniq1 {
+background-color: #006818;
 }
 .card3{
 	margin-top: 1%;
@@ -5660,4 +5683,33 @@ margin-bottom: -1px;
 }
 .Workforce2{
 	margin-top: 6.9%;
+}
+
+.image-container {
+    position: relative; /* Allows positioning of the overlay text relative to this container */
+    width: 100%; /* Ensures the container spans the entire width of its parent */
+}
+
+.image-container img {
+    width: 100%; /* Makes sure the image fills its container */
+}
+
+.text-overlay {
+    position: absolute; /* Positions the overlay text relative to its containing image */
+    top: 50%; /* Places the text at the vertical center of the container */
+    left: 30%; /* Places the text at the horizontal center of the container */
+    transform: translate(-50%, -50%); /* Centers the text precisely */
+    padding: 20px; /* Adds padding around the text */
+    color: white; /* Sets the text color to white */
+}
+
+
+.full-width-img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container {
+    width: 100%;
+    overflow: hidden;
 }
