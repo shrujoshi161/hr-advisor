@@ -5509,14 +5509,13 @@ margin-bottom: -1px;
 	margin-left: 30%;
 }
 .col2{
-	margin-right: 6.4%;
+	margin-right: 2.3%;
 }
 .col{
-	margin-right: 3.2%;
+	margin-right: 2.2%;
 	margin-left: 6.8%;
 }
 .col3{
-	margin-right: 5%;
 
 }
 .col22{
@@ -5613,13 +5612,11 @@ margin-bottom: -1px;
 }
 .card{
 	margin-top: 1%;
-	margin-bottom: 15%;
 	margin-left: 5%;
 	background-color: #ffffff;
 }
 .card2{
 	margin-top: 1%;
-	margin-bottom: 15%;
 	margin-left: 5%;
 	.card{
         border: 2px solid #dbcfcf52; /* Darker border color */
@@ -5632,7 +5629,6 @@ background-color: #006818;
 }
 .card3{
 	margin-top: 1%;
-	margin-bottom: 15%;
 	margin-left: 5%;
 	margin-right: 10%;
 }
@@ -5712,4 +5708,7 @@ background-color: #006818;
 .image-container {
     width: 100%;
     overflow: hidden;
+}
+.site_footer_wrap{
+	margin-top: 1%;
 }
