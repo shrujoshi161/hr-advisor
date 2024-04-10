@@ -4888,6 +4888,7 @@ ul.instagram-pics li:before {
 .menu_footer_wrap_inner {
 	padding:2em 0;
 	text-align:center;
+	width: 100%;
 }
 .menu_footer_nav_area ul {
 	padding:0;
@@ -4905,7 +4906,7 @@ ul.instagram-pics li:before {
 .menu_footer_nav_area ul li+li:before {
 	content: ' ';
 	display:inline-block;
-	width: 0;
+	width: 100%;
 	height:0.8em;
 	margin:0 3em;
 	vertical-align:baseline;
@@ -5448,7 +5449,7 @@ a:hover {
 }
 .tab > label {
 	display: block;
-margin-bottom: -1px;
+    margin-bottom: -1px;
 	padding: 12px 15px;
 	border: 1px solid #ccc;
 	background: #eee;
@@ -5633,15 +5634,15 @@ background-color: #006818;
 	margin-right: 10%;
 }
 .card-body1{
-	margin-top: 20%;
+	margin-top: 30%;
 	margin-left: 5%;
 }
 .card-body2{
-	margin-top: 20%;
+	margin-top: 30%;
 	margin-left: 5%;
 }
 .card-body3{
-	margin-top: 20%;
+	margin-top: 30%;
 	margin-left: 5%;
 
 }
@@ -5667,6 +5668,9 @@ background-color: #006818;
 		border-radius: 3%;
 
     }
+	.card-body{
+		margin-top: 15%;
+	}
 .tabs{
 	display: inline-flex;
 	width: 80%;
@@ -5688,6 +5692,10 @@ background-color: #006818;
 
 .image-container img {
     width: 100%; /* Makes sure the image fills its container */
+
+}
+.footer_wrap widget_area scheme_dark{
+	width: 100%;
 }
 
 .text-overlay {
